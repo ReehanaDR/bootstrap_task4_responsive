@@ -1,0 +1,1237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+    <!-- first header -->
+    <div style="background-color:hsl(173deg 91% 25%);">
+    <div class="container">
+        <div class="row text-white">
+            <div class="col-12 firstheader d-flex mt-2">
+                <div class="info mt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                  </svg> contact@example.com
+                 <svg class="ms-3 mb-1" xmlns="http://www.w3.org/2000/svg" width="14" height="15" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                    <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                  </svg> <span>+1 5589 55488 55</span>
+                  </div>
+                  <div class="icons ms-auto pb-1 ">
+                  <svg style="color:#91cdc7;" class="m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+                  <svg style="color:#91cdc7;" class="m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                  <svg style="color:#91cdc7;" class="m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                  <svg style="color:#91cdc7;" class="m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+                </div>
+                </div>
+            </div>
+    </div>
+  </div>
+    <!-- second content navbar -->
+    <div class="checking">
+     <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-white px-auto" style="font-weight: 600;font-size:30px;" href="#">Impact <font style="color: red;">.</font> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-au">
+                <a class="nav-link text-white active" aria-current="page" style="font-weight:640;" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" style="font-weight:650;color:#91cdc7;" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" style="font-weight: 650;color:#91cdc7;" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" style="font-weight: 650;color:#91cdc7;" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" style="font-weight: 650;color:#91cdc7;" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" style="font-weight: 650;color:#91cdc7;" href="#">Blog</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " style="font-weight: 650;color:#91cdc7;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Drop Down
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" style="font-weight: 650;color:#91cdc7;" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row second_content text-white d-flex align-items-evenly">
+           <div class="col-md-6 col-sm-12 mt-5">
+            <div class="h1 mt-2" style="font-weight: bolder; font-size:40px;">Welcome to Impact</div><br>
+            <div class="h6 mt-1" style="color:#91cdc7;">Sed autem laudantium dolories, Voluptateem itaque ea consequator eveniet. Enum 
+            Quas beatae cumque eum quaerat.</div> <br>
+
+            <button type="button" class="btn rounded-pill text-white px-4" style="background-color: hsl(173deg 65% 34%); font-weight:600; border:2px solid hsl(174deg 53% 39%);">Get Started</button> 
+            <svg style="color:#91cdc7;vertical-align:center" class="mx-2 ms-1" xmlns="http://www.w3.org/2000/svg" width="23" height="26" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+              </svg><span style="font-weight:600; vertical-align:middle;">Watch Video</span>
+                
+           </div>
+           <div class="col-md-6 col-sm-12 mt-5">
+            <img class="img-fluid" src="content_image1.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- four cards -->
+    <div class="container" >
+      <div class=" row d-flex justify-content-center text-white cards">
+        <div style="border-radius:7px;" class="col-md-6 col-lg-3 col-sm-6 fb1 mx-3 mb-2"> <svg style="color:#91cdc7;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tv" viewBox="0 0 16 16">
+            <path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
+          </svg>
+        <p style="font-weight:650"> Lorem Ipsum</p>
+        </div>
+        <div style="border-radius:7px;" class="col-md-6 col-lg-3 col-sm-6 fb2 mx-3 mb-2"> <svg style="color:#91cdc7;"  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+            <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
+          </svg>
+        <p style="font-weight:650">Sed ut perspiciatis</p>
+        </div>
+        <div style="border-radius:7px;" class="col-md-6 col-lg-3 col-sm-6 fb3 mx-3 mb-2"><svg style="color:#91cdc7;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+        <p style="font-weight:650">Magni Dalores</p>
+        </div>
+        <div style="border-radius:7px;" class="col-md-6 col-lg-3 col-sm-6 fb4 mx-3 mb-2"><svg style="color:#91cdc7" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-command" viewBox="0 0 16 16">
+            <path d="M3.5 2A1.5 1.5 0 0 1 5 3.5V5H3.5a1.5 1.5 0 1 1 0-3zM6 5V3.5A2.5 2.5 0 1 0 3.5 6H5v4H3.5A2.5 2.5 0 1 0 6 12.5V11h4v1.5a2.5 2.5 0 1 0 2.5-2.5H11V6h1.5A2.5 2.5 0 1 0 10 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1 1 12.5 5H11zm0 6h1.5a1.5 1.5 0 1 1-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 1 1 3.5 11H5z"/>
+          </svg>
+        <p style="font-weight:650">Neemo Enim</p>
+        </div>
+      </div>
+    </div>
+    <!-- about us -->
+    <div class="container">
+        <div class="row d-flex">
+            <div class="h4 text-center">
+                About Us
+                <hr class="mx-auto" style="width: 70px; background-color:hsl(173, 79%, 26%);color:hsl(173deg 89% 29%);height:3px; border-width:1;"> 
+            </div>
+            <div class="text-muted text-center" style="font-size: 15px; ">
+               Aperiam dolorum et et wuia molestias qui eveniet numquam nahil porro incident dolories placenut sunt id nobis omnis tiledo stran delep
+            </div>
+            <div class="col-md-6 mt-4">
+               <div class="h3" style="font-weight:650">
+                Voluptatem dignissimos provident quasi corporis
+               </div>
+               <div class="imagepart">
+                <img class="img-fluid mt-1" src="content_image2.png" style="min-height: 300px;width:530px;border-radius:20px;" alt="">
+               </div> <br>
+               <div class="mt-2" style="color:#424242;font-size:14px;">
+                Ut fugiat ut sunt quia veniam. Voluptate perferendis peprspiciatis quod nisi et. placeat
+                debtis quia recusandae odit et consequator Voluptatem. Diagnisimos pariatur
+                consequator fugiat Voluptateea.
+                <br> <br>
+                Temporibus nhil enim deserunt sad ea. provident sit expedia aut cupitate nhil
+                vitae quo officia vel. Blanditis eligendi possimus et in cum. Quidem eois iut sint rem 
+                veniam qui. Ut ut repellenduous nobis tempure doloribus debits explicabo similaue sit.
+                Accusantium sed ut omnis beatae reque deletini repellenduous.
+               </div>      
+            </div>
+            <div class="col-md-6 mt-4 mb-5">
+              <div style="color:#424242;font-size: 14px; ">
+                   <p class="mt-1"><i> Lorem Ipsum dolor sit ameet. consectetur adipiscing elit, sed do eiusmod Tempor
+                    incididunt ut labore et dolore magna alique.</i></p>
+                    <ul class="l2" id="listitems" >
+                        <li class="mb-1">Ullamco laboris nisi ut aliquip ex ea commado consequat.</li>
+                        <li class="mb-1">Duis aute irure dolor in reprehwnderit in voluptate velit</li>
+                        <li >Ullamco laboris nisi ut aliquip ex ea commado consequat.Duis aute irure 
+                            dolor in reprehwnderit in voluptate velit trideta masterio dolore
+                            eu fugiat nulla pariatur</li> 
+                    </ul>
+                
+                  
+                       
+                     <div class=" mt-3"> Ullamco laboris nisi ut aliquip ex ea commado consequat.Duis aute irure 
+                        dolor in reprehwnderit in voluptate velit trideta masterio dolore
+                        eu fugiat nulla pariatur  dolor in reprehwnderit.</div>     
+             </div>
+             <div class="mt-4">
+                <img class="img-fluid" src="content_image3.png" style="min-height: 300px;width:530px;border-radius:20px;" alt="">
+             </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+    </div>
+    <!-- headings section -->
+    <div class="container">
+        <div class="row headings mt-3 px-auto">
+            
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6"><img src="h1.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6"><img src="h2.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6"><img src="h3.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6"><img src="h4.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6"><img src="h5.png" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6"><img src="h6.png" alt=""></div>
+                
+        
+    </div>
+
+    </div>
+    <!-- third content -->
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-6">
+              <img class="img-fluid" src="content_image4.png" alt="">
+            </div>
+            <div class="col-md-6 mt-5">
+                <font style="font-size: 30px;color:hsl(173deg 89% 29%);font-weight:bold;vertical-align:middle;">232</font><span style="vertical-align:middle;"><b> &nbsp;&nbsp;Happy Clients</b><span class="text-muted"> consequator quia diredo para mesta</span> </span>
+                <hr>
+                <font style="font-size: 30px;color:hsl(173deg 89% 29%);font-weight:bold;vertical-align:middle;">521</font><span style="vertical-align:middle;"><b> &nbsp;&nbsp;Projects</b> <span class="text-muted"> adipisci atque cum quia aut</span></span>
+                <hr>
+                <font style="font-size: 30px;color:hsl(173deg 89% 29%);font-weight:bold;vertical-align:middle;">453</font><span style="vertical-align:middle;"><b>&nbsp;&nbsp; Hours of Support</b> <span class="text-muted"> aut commodi quarreat</span></span>
+                <hr>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- video part -->
+   
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="banner" >
+
+                <img class="img-fluid" id="img1" style="height: 430px; width:100%;border-radius:10px;" src="finalvideoimage.jpg" alt="">
+               
+                 <!-- video content -->
+                    <div class="vcontent text-white">
+                       
+
+
+                        <!-- modal -->
+                           
+                           <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img class="mb-3" src="video_button.png" alt="">
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog ">
+                                <div class="modal-content" style="background-color: #f1f0f0;">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Overview</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                       <video style="height:200px; width:100%;" src="video2.mp4" autoplay controls loop>
+
+                                         
+                                       </video>
+
+
+
+                                    </div>
+                                    
+                                </div>
+                                </div>
+                            </div>
+                                                
+
+
+
+                        
+
+
+
+
+
+                        <!-- modal ending -->
+
+
+                       <div class="h4" style="font-weight:650">Call To Action</div>
+                       <p style="font-size:18px;font-weight:600" class="px-3 ">Duis aute irure dolor in reprehenderit in voluptate
+                        belit esse cillum dolore eu fugiat nullla pariatur.
+                        Exceptire sint occacaecat non prodident, sunt in culpaqui officia deserunt mollit
+                        anim id est laborum
+                       </p> 
+                       <div class="mb-4">
+                        <button type="button" class="btn rounded-pill px-5 text-white " style="border:2px solid white;font-size:16px;font-weight:600">Call To Action</button>
+                       </div>
+                      
+                    </div>
+
+              
+                
+            </div>
+        </div>
+      </div>
+
+
+    <!-- our services -->
+    <div style="  background-color: #f6f6f6;">
+   <div class="container">
+    <div class="row our_services pb-4 mt-3" >
+        <div class="h4 text-center mt-4">Our Services</div>
+        <hr class="mx-auto" style="width: 70px; background-color:#05544b;color:#054941;height:3px; border-width:1;"> 
+        <p class="text-center text-muted " id="para1">Aperium dolorum et et wuia molestias qui eveniet numqum nhil porro incident dolores placeat sunt ide nobis cumins tiledo stran delop</p>
+        <!-- card1 -->
+        <div class="col-md-4 mt-3 mb-2">
+            <div id="card6" class="card" >
+                <div class="card-body ">
+                  <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+                  </svg></h5>
+                  <h4 class="card-subtitle mb-2 text-dark">
+                    <span style="border-bottom:3px solid #bfb9b9;" >Nesciunt Mete</span></h4>
+                   
+                  <p class="card-text text-muted ourservice_description mt-4" style="font-size:14px;">Provident nuhil minus qui consequatnon omnis
+                    mariores. Eos accusantium irureoerderendis tempore at consequator.
+                  </p>
+                  <a style="text-decoration: none;color:hsl(173deg 89% 29%);" href="#" class="card-link"><span><b>Read more</b> </span>
+                    <img src="right-arrow.png" alt=""> </a>
+                </div>
+              </div>
+        </div>
+        <!-- card2 -->
+        <div class="col-md-4 mt-3 mb-2">
+            <div id="card6" class="card" >
+                <div class="card-body ">
+                  <h5 class="card-title"><img style="height:40px;width:40px;" src="wifi.png" alt=""></h5>
+                  <h4 class="card-subtitle mb-2 text-dark"><span style="border-bottom:3px solid #bfb9b9;" >Eosle Commodi</span>
+                    </h4>
+                 
+                  <p class="card-text text-muted mt-4 ourservice_description"  style="font-size:14px;">Ut autem aut sutem non a sint sint sit facilis nam
+                    lusito sint. Libero corrupti neque eum hic non ut non a
+                    nesciunt dolorem
+                  </p>
+                  <a style="text-decoration: none;color:hsl(173deg 89% 29%);" href="#" class="card-link"><span><b>Read more</b> </span>
+                    <img src="right-arrow.png" alt=""> </a>
+             
+                </div>
+              </div>
+        </div>
+        <!-- card3 -->
+        <div class="col-md-4 mt-3 mb-2">
+            <div id="card6" class="card" >
+            <div class="card-body">
+              <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-tv" viewBox="0 0 16 16">
+                <path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
+              </svg></h5>
+              <h4 class="card-subtitle mb-2 text-dark">
+                <span style="border-bottom:3px solid #bfb9b9;" >Ledo Market</span></h4>
+             
+              <p class="card-text text-muted mt-4 ourservice_description"  style="font-size:14px;">Ut excepturi voluptatem nisi sed. Quidem fugiat 
+                consectetu. Minus ea aut. Cei qui id voluptas
+                adipsci eos earum corrupti.
+
+              </p>
+              <a style="text-decoration: none;color:hsl(173deg 89% 29%);" href="#" class="card-link"><span><b>Read more</b> </span>
+                <img src="right-arrow.png" alt=""> </a>
+          
+            </div>
+          </div>
+        </div>
+        <!-- card4 -->
+        <div class="col-md-4 mt-3 mb-2">
+            <div  id="card6" class="card" >
+            <div class="card-body">
+              <h5 class="card-title "><img style="height:38px;width:38px;" src="selection.png" alt=""></h5>
+              <h4 class="card-subtitle mb-2 text-dark" ><span style="border-bottom:3px solid #bfb9b9;" >Asperiores Commodit</span> </h4>
+            
+              <p class="card-text text-muted mt-4 ourservice_description"  style="font-size:14px;">Non et temporbius minus omnis sed dolor esse
+                consectetu. cupidtate sed error ea fuga sint 
+                provident adipisci neque.
+              </p>
+              <a style="text-decoration: none;color:hsl(173deg 89% 29%);" href="#" class="card-link"><span><b>Read more</b> </span>
+              <img src="right-arrow.png" alt=""> </a>
+          
+            </div>
+          </div>
+        </div>
+        <!-- card5 -->
+        <div class="col-md-4 mt-3 mb-2">
+            <div id="card6" class="card" >
+                <div class="card-body">
+                  <h5 class="card-title"><img style="height:42px;width:42px;" src="watch.png" alt=""></h5>
+                  <h4 class="card-subtitle mb-2 text-dark"><span style="border-bottom:3px solid #bfb9b9;" > Velit Doloremque</span></h4>
+                  
+                  <p class="card-text text-muted mt-4 ourservice_description"  style="font-size:14px;">Cumque et suscipit saepe. Est maioresautem 
+                    enim facillus ut aurt ipsm corporis aut. Sed animi at
+                    autem allas eius labore.
+                  </p>
+                  <a style="text-decoration: none;color:hsl(173deg 89% 29%);" href="#" class="card-link"><span><b>Read more</b> </span>
+                    <img src="right-arrow.png" alt=""> </a>
+                 
+                </div>
+              </div>
+        </div>
+        <!-- card6 -->
+        <div class="col-md-4 mt-3 mb-2">
+            <div id="card6" class="card" >
+                <div  class="card-body ">
+                  <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chat-square-text" viewBox="0 0 16 16">
+                    <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                  </svg></h5>
+                  <h4 class="card-subtitle mb-2 text-dark">
+                    <span style="border-bottom:3px solid #bfb9b9;" >Dolori Architecto </span></h4>
+                  
+                  <p class="card-text text-muted mt-4 ourservice_description"  style="font-size:14px;">Hic molestias ea quibusdam eos, Fugiat enim 
+                    aut neque non et debitis iure. corrupti
+                    recusandae ducium enim.</p>
+                    <a style="text-decoration: none;color:hsl(173deg 89% 29%);" href="#" class="card-link"><span><b>Read more</b> </span>
+                      <img src="right-arrow.png" alt=""> </a>
+                 
+                </div>
+              </div>
+        </div>
+
+
+    </div>
+   </div>
+  </div>
+       <!-- testimonials  -->
+       <div class="container">
+        <div class="row testimonials mt-5">
+            <div class="h4 text-center">Testimonials</div>
+            <hr class="mx-auto" style="width: 70px;border-width:3px;border-color:rgb(20, 125, 123);"> 
+            <div class="text-muted text-center mt-3" style="font-size: 15px;">Voluptatem quibusdam ut ullam perfeendis repellat non ut consequntur est evinient deentini fignssimos eos quam</div>
+            <!-- first -->
+            <div class="col-md-4">
+                <div id="card6" class="card mt-5 shadow">
+                    <div class="card-body">
+                       <!-- image part -->
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                              <img style="height:75px;width:75px;border-radius:50px;" src="t1.jpg" alt="...">
+                            </div>
+                            <div class="flex-grow-1 ms-3 mt-3">
+                             <h5 class="heading m-1" style="margin-bottom: 0px;font-size:17px;"> <b>John Larson</b> </h5> 
+                             <h6 class=" heading m-1" style="margin-bottom: 0px;font-size:14px;color:#c4c1c1;">Entrepreneur</h6>
+                            <p>⭐⭐⭐⭐⭐</p>
+                            </div>
+                          </div>
+                       <!-- end of image part -->
+
+
+
+                      <p class="card-text mt-3">
+                        <img style="height: 15px;width:14px;" src="left-quote.png" alt="">
+                        <i style="font-size:15px;color:#424242">
+                            Quis quorum aliqua sint quem legam fore
+                            sunt eram irure aliqua veniam tempor noster
+                            veniam enim culpa labore duis siunt culpa nullaillum cilium fugiot legam esse veniam culpa fore
+                        </i>
+                        <img style="height: 15px;width:14px;" src="right-quote-sign.png" alt="">
+                      </p>
+                    </div>
+                  </div>
+
+            </div>
+            <!-- second -->
+            <div class="col-md-4">
+                <div id="card6" class="card mt-5 shadow" >
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                              <img style="height:75px;width:75px;border-radius:50px;" src="t2.jpg" alt="...">
+                            </div>
+                            <div class="flex-grow-1 ms-3 mt-3">
+                             <h5 class="heading m-1" style="margin-bottom: 0px;font-size:17px;"><b> Saul Goodman</b></h5> 
+                             <h6 class=" heading m-1" style="margin-bottom: 0px;font-size:14px;color:#c4c1c1">Ceo & Founder</h6>
+                            <p>⭐⭐⭐⭐⭐</p>
+                            </div>
+                          </div>
+                      <p class="card-text mt-3">
+                        <img style="height: 15px;width:14px;" src="left-quote.png" alt="">
+                        <i style="font-size:15px;color:#424242">
+                            Quis quorum aliqua sint quem legam fore
+                            sunt eram irure aliqua veniam tempor noster
+                            veniam enim culpa labore duis siunt culpa nullaillum cilium fugiot legam esse veniam culpa fore
+                        </i>
+                        
+                        <img style="height: 15px;width:14px;" src="right-quote-sign.png" alt="">
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <!-- third -->
+            <div class="col-md-4 mb-5">
+                <div id="card6" class="card mt-5 shadow" >
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                              <img style="height:75px;width:75px;border-radius:50px;" src="t3.jpg" alt="...">
+                            </div>
+                            <div class="flex-grow-1 ms-3 mt-3">
+                             <h5 class="heading m-1" style="margin-bottom: 0px;font-size:17px;"><b> Sara Wilsson</b></h5> 
+                             <h6 class=" heading m-1" style="margin-bottom: 0px;font-size:14px;color:#c4c1c1">Designer</h6>
+                            <p>⭐⭐⭐⭐⭐</p>
+                            </div>
+                          </div>
+                      <p class="card-text mt-3">
+                        <img style="height: 15px;width:14px;" src="left-quote.png" alt="">
+                        <i style="font-size:15px;color:#424242">
+                            Quis quorum aliqua sint quem legam fore
+                            sunt eram irure aliqua veniam tempor noster
+                            veniam enim culpa labore duis siunt culpa nulla
+                            illum cilium fugiot legam esse veniam culpa fore
+                        </i>
+                        <img style="height: 15px;width:14px;" src="right-quote-sign.png" alt="">
+                      </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       </div>
+
+       <!-- dots -->
+       <div class="dots d-flex justify-content-center" style="min-height:40px;">
+    
+            <div class="box1 mx-2" style="height: 12px;width:12px;background-color:#c4c1c1;border-radius:50%;"></div>
+            <div class="box1 mx-2" style="height: 12px;width:12px;background-color:#c4c1c1;border-radius:50%;"></div>
+            <div class="box1 mx-2" style="height: 12px;width:12px;background-color:#c4c1c1;border-radius:50%;"></div>
+            <div class="box1 mx-2" style="height: 12px;width:12px;background-color:#c4c1c1;border-radius:50%;"></div>
+            <div class="box1 mx-2" style="height: 12px;width:12px;background-color:#099182;border-radius:50%;"></div>
+            
+           
+        </div>
+
+       </div>
+       <!-- portfolio -->
+       <div style="background-color: #f6f6f6;">
+       <div class="container">
+        <div class="row portfolio mt-4">
+            <div class="h4 text-center mt-4">Portfolio</div>
+            <hr class="mx-auto" style="width: 70px; background-color:#05544b;color:#054941;height:3px; border-width:1;"> 
+            <div class="text-muted text-center mt-3" style="font-size: 15px;">Quam sed id excepturi ccusantium dolorem ut quis dolores nisi illum nisi ilum nostrum enim velit qui ut autem uia reprehent sunt deleniti</div>
+
+              <!-- data target stuff -->
+              <div class="data_target mt-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" style="color:hsl(173deg 89% 29%);font-size:14px;font-weight:600;"  aria-current="page" href="#">All</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color:hsl(180, 2%, 38%);font-size:14px;font-weight:600;" href="#">App</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color:hsl(180, 2%, 38%);font-size:14px;font-weight:600;" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color:hsl(180, 2%, 38%);font-size:14px;font-weight:600;">Branding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:hsl(180, 2%, 38%);font-size:14px;font-weight:600;">Books</a>
+                      </li>
+                  </ul>
+              </div>
+
+            <!-- portfolio cards -->
+            <!-- first -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="app1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">App 1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- second -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="product1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Product 1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- third -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="branding1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Branding 1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- fourth -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="books1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Books 1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- fifth -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="app2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">App 2</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- sixth -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="product2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Product 2</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- seventh -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="branding2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Branding 2</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- eigth -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="books2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Books 2</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- ninth -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="app3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">App 3</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- tenth -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="product3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Product 3</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- 11th -->
+            <div class="col-md-4">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="branding3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Branding 3</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- 12th -->
+            <div class="col-md-4 mb-5">
+                <div class="card mt-4 shadow" style="border-radius:20px;">
+                    <img src="books3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Books 3</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       </div>
+      </div> 
+
+       <!-- our team -->
+       <div class="container">
+        <div class="row">
+            <div class="h4 text-center mt-4">Our Team</div>
+            <hr class="mx-auto" style="width: 70px; background-color:#05544b;color:#054941;height:3px; border-width:1;"> 
+            <div class=" text-center mt-3 text-muted" style="font-size: 15px;">Quam sed id excepturi ccusantium dolorem ut quis dolores nisi illum nisi ilum nostrum enim velit qui ut autem uia reprehent sunt deleniti</div>
+            <!-- team1 -->
+            <div class="col-md-3 mt-5 ourteam">
+                <div class="card shadow" >
+                    <img class="p-3" style="border-radius: 20px;" src="walter_white.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center" style="font-size:20px"><b> Walter White</b></h5>
+                      <p class="card-text text-muted text-center"><i> Web Development</i></p>
+                      <div class="icons d-flex justify-content-evenly">
+                        <img style="height: 24px;width:25px;" src="twitter.png" alt="">
+                        <img style="height: 24px;width:25px;" src="facebook.png" alt="">
+                        <img style="height: 24px;width:25px;" src="instagram.png" alt="">
+                        <img style="height: 24px;width:25px;" src="linkedin.png" alt="">
+ 
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+            <!-- team2 -->
+            <div class="col-md-3 mt-5 ourteam">
+                <div class="card shadow" >
+                    <img class="p-3" style="border-radius: 20px;" src="sarah_jinhson.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center" style="font-size:20px"><b>Sarah Jhinson</b> </h5>
+                      <p class="card-text text-muted text-center"><i> Marketing</i></p>
+                      <div class="icons d-flex justify-content-evenly">
+                        <img style="height: 24px;width:25px;" src="twitter.png" alt="">
+                        <img style="height: 24px;width:25px;" src="facebook.png" alt="">
+                        <img style="height: 24px;width:25px;" src="instagram.png" alt="">
+                        <img style="height: 24px;width:25px;" src="linkedin.png" alt="">
+ 
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+            <!-- team3 -->
+            <div class="col-md-3 mt-5 ourteam">
+                <div class="card shadow">
+                    <img class="p-3" style="border-radius: 20px;" src="willian_anderson.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center" style="font-size:20px"> <b>William Anderson</b> </h5>
+                      <p class="card-text text-muted text-center"><i> Content</i></p>
+                      <div class="icons d-flex justify-content-evenly">
+                        <img style="height: 24px;width:25px;" src="twitter.png" alt="">
+                        <img style="height: 24px;width:25px;" src="facebook.png" alt="">
+                        <img style="height: 24px;width:25px;" src="instagram.png" alt="">
+                        <img style="height: 24px;width:25px;" src="linkedin.png" alt="">
+ 
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+            <!-- team4 -->
+            <div class="col-md-3 mt-5 mb-5 ourteam">
+                <div class="card shadow" >
+                    <img class="p-3" style="border-radius: 20px;" src="amanda_jepson.png" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                      <h5 class="card-title text-center" style="font-size:20px"><b>Amanda Jepson</b> </h5>
+                      <p class="card-text text-muted text-center"> <i>Accountant</i> </p>
+                      <div class="icons d-flex justify-content-evenly">
+                        <img style="height: 24px;width:25px;" src="twitter.png" alt="">
+                        <img style="height: 24px;width:25px;" src="facebook.png" alt="">
+                        <img style="height: 24px;width:25px;" src="instagram.png" alt="">
+                        <img style="height: 24px;width:25px;" src="linkedin.png" alt="">
+ 
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+        </div>
+       </div>
+       <!-- Pricing -->
+       <div style=" background-color: #f6f6f6;">
+       <div class="container">
+        <div class="row pricing mb-3">
+            <!-- pricing1 -->
+            
+            <div class="h4 text-center mt-4">Pricing</div>
+            <hr class="mx-auto" style="width: 70px; background-color:#05544b;color:#054941;height:3px; border-width:1;"> 
+            <div class=" text-center mt-3 text-muted" style="font-size: 15px;">Quam sed id excepturi ccusantium dolorem ut quis dolores nisi illum nisi ilum nostrum enim velit qui ut autem uia reprehent sunt deleniti</div>
+            <!-- pricing1 -->
+            <div class="col-md-4 mt-5">
+                <div class="card shadow" >
+                    <div class="card-body p-4">
+                      <h5 class="card-title text-center text-center m-3">Free Plan</h5>
+
+                      <div class="text-center">
+                        <img style="height: 50px;" src="3d-cube.png" alt="">
+                      </div>
+
+                       
+                      <h6 class="card-subtitle m-3 text-muted text-center"><img style="height: 16px;vertical-align:super;" src="dollar.png" alt=""><font style="font-size: 40px;color:#F85A40;">0</font>/month</h6>
+                      <p class="card-text text-muted ms-4">
+                        <img src="check.png"  style="height:16px;" alt=""> Quam adipiscing vitae provin <br>
+                        <img src="check.png"  style="height:16px;" alt=""> Ner feugiat nisi prenium <br>
+                        <img src="check.png"  style="height:16px;" alt=""> Nulla at volutpat diam uteera <br>
+                        <img src="wrong.png" style="height:16px;" alt=""><s class="text-muted">Pharetra massa massa ultricies</s> <br>
+                    
+                      <img src="wrong.png" style="height:16px;" alt=""><s class="text-muted">Massa ultricies mi quis henderit</s>
+                    </p>
+
+                    <div class="text-center">
+                        <button type="button" class="btn btn-light rounded-pill px-4 border-secondary my-4" style="color:hwb(173 3% 45%);font-weight:bold;">Buy Now</button>
+                    </div>
+                    </div>
+                  </div>
+
+            </div>
+            <!-- pricing2 -->
+            <div class="col-md-4 mt-5 ">
+                <div class="card second_card shadow" >
+                    <div class="card-body p-4">
+                      <h5 class="card-title text-center m-3">Business Plan</h5>
+                      <div class="text-center">
+                        <img style="height: 50px;" src="plane.png" alt="">
+                      </div>
+                      <h6 class="card-subtitle m-3 text-muted text-center">
+                        <img style="height: 16px;vertical-align:super;" src="dollar.png" alt=""><font style="font-size: 40px;color:#F85A40;">29</font>/month</h6>
+                      <p class="card-text text-muted mt-4 ms-4">
+                        <img src="check.png"  style="height:16px;" alt=""> Quam adipiscing vitae provin <br>
+                        <img src="check.png"  style="height:16px;" alt=""> Ner feugiat nisi prenium <br>
+                        <img src="check.png"  style="height:16px;" alt=""> Nulla at volutpat diam uteera <br>
+                        <img src="check.png"  style="height:16px;" alt=""> Quam adipiscing vitae provin <br>
+                        <img src="check.png"  style="height:16px;" alt=""> Ner feugiat nisi prenium <br>
+
+                        <div class="text-center">
+                            <button type="button" class="btn btn-light rounded-pill px-4 border-secondary my-4" style="color:hwb(173 3% 45%);font-weight:bold;">Buy Now</button>
+                        </div>
+                    </div>
+                  </div>
+
+            </div>
+            <!-- pricing3 -->
+            <div class="col-md-4 mt-5 mb-5">
+                <div class="card shadow" >
+                    <div class="card-body p-4">
+                      <h5 class="card-title text-center m-3">Developer Plan</h5>
+                      <div class="text-center">
+                        <img style="height: 50px;" src="aeroplane.png" alt="">
+                      </div>
+                      <h6 class="card-subtitle m-3 text-muted text-center">
+                        <img style="height: 16px;vertical-align:super;" src="dollar.png" alt=""><font style="font-size: 40px;color:#F85A40;">49</font>/month</h6>
+                      <p class="card-text text-muted ms-4">
+                        <img  src="check.png"  style="height:16px;" alt=""> Quam adipiscing vitae provin <br>
+                        <img  src="check.png"  style="height:16px;" alt=""> Ner feugiat nisi prenium <br>
+                        <img  src="check.png"  style="height:16px;" alt=""> Nulla at volutpat diam uteera <br>
+                        <img  src="check.png"  style="height:16px;" alt=""> Quam adipiscing vitae provin <br>
+                        <img  src="check.png"  style="height:16px;" alt=""> Ner feugiat nisi prenium <br>
+                    
+                        <div class="text-center">
+                            <button type="button" class="btn btn-light rounded-pill px-4 border-secondary my-4" style="color:hwb(173 3% 45%);font-weight:bold;">Buy Now</button>
+                        </div>
+
+                     </div>
+                  </div>
+
+            </div>
+        </div>
+       </div>
+      </div>
+
+       <!-- Frequently asked questions -->
+       <div class="container">
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-md-6 ps-3 mt-5">
+                <div class="">Frequently Asked <br>
+                <div class="h3">Questions</div></div> 
+                <div class="text-muted" >Lorem ipsum dolor ut amet consectetu <br>
+                    adipscing elit, sed do eiusmed tempor <br>
+                    incididunt ut labore et dolore magna alique <br>
+                    Duis aute irure dolor in reprehendrit
+                </div>
+            </div>
+            <div class="col-md-6 mt-4">
+
+                
+                    <!-- accordion1 -->
+                    <div class="box1 shadow" style="border-radius:15px">
+                    
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item mt-4">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                             <h6 style="vertical-align:middle;"> <font style="color:#05544b;font-weight:600;">1.</font> Non consectetur a erat nam at lectus urna duis?</h6>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                    </div>  
+                    </div>
+
+                    <!-- accodion2 -->
+                    <div class="box2 shadow" style="border-radius:7px">
+                    
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item mt-4">
+                              <h2 class="accordion-header" id="flush-heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                                 <h6 style="vertical-align:middle;"> <font style="color:#05544b;font-weight:600;">2.</font> Feugiat scelerisque varius morbi enium nunc faucibus a pellentesque?</h6>
+                                </button>
+                              </h2>
+                              <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                              </div>
+                            </div>
+                        </div>  
+                    </div>
+                        <!-- accordion3 -->
+                        <div class="box3 shadow" style="border-radius:7px">
+                    
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item mt-4">
+                                  <h2 class="accordion-header" id="flush-heading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                                     <h6 style="vertical-align:middle;"> <font style="color:#05544b;font-weight:600;">3.</font> Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h6>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                  </div>
+                                </div>
+                            </div>  
+                        </div>
+                            <!-- accordion4 -->
+                            <div class="box4 shadow" style="border-radius:7px">
+                    
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item mt-4">
+                                      <h2 class="accordion-header" id="flush-heading4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                         <h6 style="vertical-align:middle;"> <font style="color:#05544b;font-weight:600;">4.</font> Ac odio tempor orci dapibus. Aliquam eleifend mi in?</h6>
+                                        </button>
+                                      </h2>
+                                      <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                      </div>
+                                    </div>
+                                </div>  
+                            </div>
+                                <!-- accordion5 -->
+                                <div class="box5 shadow" style="border-radius:7px">
+                    
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item mt-4">
+                                          <h2 class="accordion-header" id="flush-heading5">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                             <h6 style="vertical-align:middle;"> <font style="color:#05544b;font-weight:600;">5.</font> Tempus quam pellentesque nec nam aliquam sem et tortor?</h6>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                          </div>
+                                        </div>
+                                    </div> 
+                                </div> 
+                                    
+
+
+                    
+                   
+
+
+
+
+
+            <!-- col-md-6 ends here -->
+            </div>
+            <!-- row ends here -->
+        </div>
+        <!-- container ends here -->
+       </div>
+
+       <!-- recent blog section -->
+       <div style="background-color: #f6f6f6;">
+       <div class="container" >
+        <div class="row blog mt-5">
+            <div class="h4 text-center mt-4">Recent Blog Posts</div>
+            <hr class="mx-auto" style="width: 70px; background-color:#05544b;color:#054941;height:3px; border-width:1;"> 
+            <div class="text-center text-muted mt-3" style="font-size: 15px;">Quam sed id excepturi ccusantium dolorem ut quis dolores nisi illum nisi
+                 ilum nostrum enim velit qui ut autem uia reprehent sunt deleniti</div>
+                <!-- first -->
+                 
+                    <div class="col-md-4 mt-5">
+                        <div class="card mt-2 shadow" style="border-radius:20px;">
+                            <img src="politics.png" class="card-img-top" alt="...">
+                            <div class="card-body ms-3">
+                             <p class="card-text text-muted">Politics</p>
+                             <h5 class="card-title" style="font-weight: 650;">Dolorum optio tempore
+                                voluptas dignissimos
+                             </h5>
+                            
+                             
+                             <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <img style="height:65px;width:70px;border-radius:47px;margin-top:10px" src="t1.jpg" alt="...">
+                                </div>
+                                <div class="flex-grow-1 ms-3 mt-4">
+                                 <h5 style="font-size:15px">Maria Doe </h5> 
+                                 <p style="font-size:14px" class="text-muted">Jan 1, 2022</p>
+                                </div>
+                              </div>
+                           
+                              
+                            </div>
+                          </div>
+                    </div>
+
+                    <!-- second -->
+                    <div class="col-md-4 mt-5">
+                        <div class="card mt-2 shadow" style="border-radius:20px;">
+                            <img src="sports.png" class="card-img-top" alt="...">
+                            <div class="card-body ms-3">
+                             <p class="card-text text-muted">Sports</p>
+                             <h5 class="card-title"  style="font-weight: 650;">Nisi magni odit consectetur
+                                autem nulla dolorem
+                             </h5>
+
+                             <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <img style="height:65px;width:70px;border-radius:47px;margin-top:10px" src="t2.jpg" alt="...">
+                                </div>
+                                <div class="flex-grow-1 ms-3 mt-4">
+                                 <h5 style="font-size:15px"> Allisa Mayer</h5> 
+                                 <p style="font-size:14px" class="text-muted">Jun 5, 2022</p>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
+                    </div>
+                    <!-- third -->
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card mt-2 shadow" style="border-radius:20px;">
+                            <img src="entertainment.png" class="card-img-top" alt="...">
+                            <div class="card-body ms-3">
+                             <p class="card-text text-muted">Entertainment</p>
+                             <h5 class="card-title"  style="font-weight: 650;">Possimus soluta ut id suscipitea ut in quia et soluta
+                             </h5>
+
+                             <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <img style="height:70px;width:70px;border-radius:50px;margin-top:10px" src="t3.jpg" alt="...">
+                                </div>
+                                <div class="flex-grow-1 ms-3 mt-4">
+                                 <h5 style="font-size:15px">Mark Dower</h5> 
+                                 <p class="text-muted" style="font-size:14px">Jun 22, 2022</p>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
+                    </div>
+                
+
+            <!-- row ends here -->
+        </div>
+       </div>
+      </div>
+
+       <!-- contact -->
+          <div class="container">
+            <div class="row">
+            <div class="h4 text-center mt-4">Contact</div>
+            <hr class="mx-auto" style="width: 70px; background-color:#05544b;color:#054941;height:3px; border-width:1;"> 
+            <div class="text-center text-muted mb-5 mt-2" style="font-size: 15px;">Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nhil id ratione ea sunt quis dolorem earum</div>
+
+                
+                <div class="col-md-4 right" style="background-color:#078274">
+                    <!-- location -->
+                    <div class="m-3" style="height: 70px;background-color:#099182;border-radius:10px;">
+                       
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt text-white ms-3" viewBox="0 0 16 16">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                  </svg>
+                              <!-- <img class="ms-3" style="height:50px;width:45px;" src="placeholder.png" alt="..."> -->
+                            </div>
+                            <div class="flex-grow-1 ms-3 mt-2 text-white ">
+                             <h6>Location:</h6> 
+                             <p style="font-size: 13px;">A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                          </div>
+                  
+
+                    </div>
+                    <!-- Email -->
+                    <div class="m-3" style="height: 70px;background-color:#099182;border-radius:10px;">
+
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope text-white ms-3" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                  </svg>
+                              <!-- <img class="ms-3" style="height:50px;width:45px;" src="placeholder.png" alt="..."> -->
+                            </div>
+                            <div class="flex-grow-1 ms-3 mt-2 text-white ">
+                             <h6>Email:</h6> 
+                             <p style="font-size: 13px;">Info@example.com</p>
+                            </div>
+                          </div>
+
+                    </div>
+                    <!-- Call -->
+                    <div class="m-3" style="height: 70px;background-color:#099182;border-radius:10px;">
+
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-phone text-white ms-3" viewBox="0 0 16 16">
+                                    <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                  </svg>
+                              <!-- <img class="ms-3" style="height:50px;width:45px;" src="placeholder.png" alt="..."> -->
+                            </div>
+                            <div class="flex-grow-1 ms-3 mt-2 text-white ">
+                             <h6>Call:</h6> 
+                             <p style="font-size: 13px;">+1 5589 55488 55</p>
+                            </div>
+                          </div>
+
+                    </div>
+                    <!-- Open hours -->
+                    <div class="m-3" style="height: 70px;background-color:#099182;border-radius:10px;">
+
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-clock text-white ms-3" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                  </svg>
+                              <!-- <img class="ms-3" style="height:50px;width:45px;" src="placeholder.png" alt="..."> -->
+                            </div>
+                            <div class="flex-grow-1 ms-3 mt-2 text-white ">
+                             <h6>Open Hours:</h6> 
+                             <p style="font-size: 13px;">Mon-Sat: 11AM-23PM</p>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+                <!-- Form -->
+                <div class="col-md-8 shadow py-5">
+                   
+                   
+                        <div class="row">
+                            <div class="col mb-3 mx-auto">
+                              <input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
+                            </div>
+                            <div class="col mb-3">
+                              <input type="Email" class="form-control" placeholder="Your Email" aria-label="Last name">
+                            </div>
+                          </div>
+                          <div class="mb-3 mx-auto">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Subject">
+                          </div>
+                          <div class="mb-3 mx-auto">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7\5" placeholder="Message"></textarea>
+                          </div>
+                          <div class="text-center">
+                            <button  type="button" class="btn text-white px-4 rounded-pill" style="background-color: #078274;">Send Message</button>
+                          </div>
+                
+                    
+                     
+
+               
+                </div>
+
+                
+
+
+            <!-- row ends here -->
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <div class="conatiner">
+            <div class="row footer mt-5 d-flex justify-content-center pt-5 text-white mx-auto">
+                <div class="col-md-4">
+                    <div class="h2" style="font-weight:650">Impact</div>
+                    <p style="color:#dceeec; font-weight:600;font-size:14px">Cras fermentum odio eu feygiat lide par naso tierra. justo eget nada tierra
+                        video magna derita valies darta donnamare fermentum laculis eu non
+                    diam phasellus.</p>
+
+                    <div class="icons">
+                        <svg style="color:#91cdc7;" class="m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                        <svg style="color:#91cdc7;" class="m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                        <svg style="color:#91cdc7;" class="m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                        <svg style="color:#91cdc7;" class="m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                      </div>
+
+                </div>
+                <div class="col-md-2 lists">
+                    <ul class="l1" style="list-style-type: none;">
+                        <li><h5 style="font-size:17px"><b>Useful Links</b> </h5></li>
+                        <li class="mt-3 mb-1" style="color:#91cdc7;font-size:14px">Home </li>
+                        <li class="mb-1" style="color:#91cdc7;font-size:14px">About us</li>
+                        <li class="mb-1"  style="color:#91cdc7;font-size:14px">Services</li>
+                        <li class="mb-1"  style="color:#91cdc7;font-size:14px">Terms of Services</li>
+                        <li class="mb-1"  style="color:#91cdc7;font-size:14px">Privacy policy</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                   <ul class="l1" style="list-style-type: none;">
+                    <li> <h5 style="font-size:17px"><b>Our Services</b> </h5></li>
+                    <li class="mt-3 mb-1" style="color:#91cdc7;font-size:14px">Web Design</li>
+                    <li class="mb-1"  style="color:#91cdc7;font-size:14px">Web Development</li>
+                    <li class="mb-1"  style="color:#91cdc7;font-size:14px">Product Management</li>
+                    <li class="mb-1"  style="color:#91cdc7;font-size:14px">Marketing</li>
+                    <li class="mb-1"  style="color:#91cdc7;font-size:14px">Graphic Design</li>
+                   </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="l1" style="list-style-type: none;">
+                        <li> <h5 style="font-size:17px"><b>Contact Us</b> </h5></li>
+                        <li class="mt-3" style="color:#dceeec;font-size:14px">A108 Adam Street New York, NY 5355022 United States</li>
+                        <br>
+                        <li class="mb-1"  style="color:#dceeec;font-size:14px"> <b style="color:white">Phone:</b>  +1 5589 554888 55</li>
+                        <li style="color:#dceeec"> <b style="color:#dceeec;font-size:14px">Email:</b>  info@gmail.com</li>
+                    </ul>
+                </div>
+
+               <div class="text-center" style="color:#dceeec;font-size:15px">
+                 &copyCopyright <b style="color:#dceeec">Impact.</b>   All Rights Reserved
+                Designed by BootstrapMade </div>
+
+            </div>
+          </div>
+
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

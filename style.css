@@ -1,0 +1,198 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+div.col-12.firstheader{
+  
+  min-height: 40px;
+  max-width: 100%;
+
+}
+
+a.nav-link.text-white.active{
+   border-bottom: 2px solid hsl(8deg 93% 61%);
+}
+
+div.checking{
+    min-height: 520px;
+    background-color: hsl(173deg 90% 27%);
+    max-width: 100%; 
+}
+div.col-md-6.col-lg-3.fb1{
+    height: 120px;
+    width: 170px;
+    background-color:hsl(173deg 89% 29%);
+    text-align: center;
+    padding-top: 25px;
+}
+div.col-md-6.col-lg-3.fb2{
+    height: 120px;
+    width: 170px;
+    background-color: hwb(173 3% 45%);
+    text-align: center;
+    padding-top: 25px;
+}
+div.col-md-6.col-lg-3.fb3{
+    height: 120px;
+    width: 170px;
+    background-color:hsl(173deg 89% 29%);
+    text-align: center;
+    padding-top: 25px;
+}
+div.col-md-6.col-lg-3.fb4{
+    height: 120px;
+    width: 170px;
+    background-color:hsl(173deg 89% 29%);
+    text-align: center;
+    padding-top: 25px;
+}
+div.row.d-flex.justify-content-center.text-white.cards{
+    position: relative;
+    bottom: 52px;
+}
+div.row.headings{
+    min-height: 70px;
+}
+div.col-12.video_container{
+    width:100%;
+    background-color: aquamarine;
+}
+div.row.our_services{
+  
+    min-height: 650px;
+}
+div.row.testimonials{
+    min-height: 400px; 
+}
+div.row.portfolio{
+    min-height: 800px;
+    
+}
+div.row.pricing{
+   
+    min-height: 500px;
+}
+div.row.blog{
+    
+    min-height: 500px;
+}
+h5.heading{
+    line-height: 1;
+}
+div.row.footer{
+    min-height: 400px;
+    background-color:#078274 ;
+}
+div.col-md-3.lists{
+    list-style-type: none;
+}
+
+
+div.card.second_card:hover{
+    border: 2px solid #078274;
+    transform: scale(1.1,1.2);
+    
+}
+div.col-md-12.banner{
+   
+    background-color: #566462;
+    border-radius:10px;
+}
+div.banner{
+    position:relative;
+}
+div.vcontent{
+    position: absolute;
+    top: 18%;
+    text-align: center;
+}
+#listitems{
+    list-style-image:url("correct.png");
+}
+
+div#card6.card{
+    border: none;
+}
+div.card{
+    border: none; 
+}
+ul.l1{
+    padding-left: 0px;
+}
+ul.l2{
+    padding-left: 17px;
+}
+
+button.navbar-toggler:focus{
+    box-shadow: none;
+
+}
+
+span.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.95%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media screen and (min-width:767px) and  (max-width:991px)  {
+    .our_services .ourservice_description{
+          min-height: 105px;
+    }
+}
+@media screen and (min-width:767px) and  (max-width:991px)  {
+    .our_services .card-body{
+          min-height: 311px;
+    }
+}
+
+@media screen and (min-width:992px) and  (max-width:1199px)  {
+    .our_services .ourservice_description{
+          min-height: 84px;
+    }
+}
+
+@media screen and (min-width:767px) and  (max-width:991px)  {
+    .testimonials .card-body{
+          min-height: 363px;
+    }
+}
+
+@media screen and (min-width:767px) and  (max-width:991px)  {
+    .ourteam .card-body{
+          min-height: 176px;
+    }
+}
+
+@media screen and (min-width:767px) and  (max-width:991px)  {
+    .pricing .card-body{
+          min-height: 599px;
+    }
+}
+
+@media screen and (min-width:992px) and  (max-width:1199px)  {
+    .pricing .card-body{
+          min-height: 554px;
+    }
+}
+
+@media screen and (min-width:1200px)  {
+    .pricing .card-body{
+          min-height: 459px;
+    }
+}
+
+@media screen and (min-width:767px) and  (max-width:991px)  {
+    .blog .card-body{
+          min-height: 281px;
+    }
+    .blog .card-title{
+        min-height: 96px;
+    }
+}
+
+@media screen and (min-width:992px) and  (max-width:1199px)  {
+    .blog .card-body{
+          min-height: 239px;
+    }
+    
+}
